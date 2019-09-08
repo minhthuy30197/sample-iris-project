@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <link href="/resources/css/layout.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header -->
+	{{ template "header"}}
+
+	<!-- Body -->
+	{{ yield }}
+
+	<!-- Footer -->
+	{{ template "footer" }}
+</body>
+
+</html>
